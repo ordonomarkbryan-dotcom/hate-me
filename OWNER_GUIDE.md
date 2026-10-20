@@ -28,22 +28,13 @@
 1. Put your pictures (`.jpg`, `.jpeg`, `.png`, or `.webp`) into the folder:
    `public/gallery/`
 2. Open [`src/lib/data.js`](src/lib/data.js).
-3. Update the `galleryImages` array:
-   ```javascript
-   export const galleryImages = [
-     {
-       src: '/gallery/your_photo_name.jpg',
-       caption: 'Our trip to the beach',
-       date: 'Summer 2023',
-     },
-     {
-       src: '/gallery/another_memory.jpg',
-       caption: 'The night we talked for hours',
-       date: 'October 20',
-     },
-   ];
-   ```
-4. If no photos are provided, an elegant placeholder camera icon with romantic text will appear automatically.
+3. The current active photos are:
+   - `photo1.jpg` (Video call memory)
+   - `photo2.jpg` (Funny filter video call memory)
+   - `photo3.jpg` (Roblox memory)
+   Text overlays have been removed since captions are omitted.
+4. If you want to add captions or dates in the future, simply add `caption` and `date` properties to any entry in `galleryImages`.
+5. If no photos are provided, an elegant placeholder camera icon will appear automatically.
 
 ---
 

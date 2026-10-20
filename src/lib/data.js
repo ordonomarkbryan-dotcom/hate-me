@@ -122,18 +122,13 @@ export const surveyQuestions = [
 
 export const galleryImages = [
   {
-    src: '/gallery/memory1.jpg',
-    caption: 'Walking beside you by the sea',
-    date: 'The days we wished would never end',
+    src: '/gallery/photo1.jpg',
   },
   {
-    src: '/gallery/memory2.jpg',
-    caption: 'Our quiet talks on rainy evenings',
-    date: 'When the world felt just right',
+    src: '/gallery/photo2.jpg',
   },
   {
-    src: '/gallery/memory3.jpg',
-    caption: 'Under the open sky, watching the lights',
-    date: 'Till the stars lights up the sky again',
+    src: '/gallery/photo3.jpg',
   },
 ];
+
